@@ -1,0 +1,60 @@
+{
+  "Overall": [
+    {"Confirmed": 100},
+    {"Deaths": 100},
+    {"Recovered": 100}
+  ],
+  "DataList": [
+    {
+      "Country": "Cina",
+      "Confirmed": 100,
+      "Deaths": 100,
+      "Recovered": 100,
+      "Lat": 43.0,
+      "Long": 23.0,
+      "RegionList": [
+        {
+          "Region": "Hubei",
+          "Lat": 40.83956555,
+          "Long": 14.25084984,
+          "Confirmed": 179,
+          "Deaths": 1,
+          "Recovered": 4
+        },
+        {
+          "Region": "Hunan",
+          "Lat": 40.83956555,
+          "Long": 14.25084984,
+          "Confirmed": 179,
+          "Deaths": 1,
+          "Recovered": 4
+        }
+      ]
+    },
+    {
+      "Country": "Italy",
+      "Confirmed": 100,
+      "Deaths": 100,
+      "Recovered": 100,
+      "RegionList": [
+        {
+          "Region": "Calabria",
+          "Lat": 40.83956555,
+          "Long": 14.25084984,
+          "Confirmed": 200,
+          "Deaths": 1,
+          "Recovered": 4
+        },
+        {
+          "Region": "Lazio",
+          "Lat": 40.83956555,
+          "Long": 14.25084984,
+          "Confirmed": 100,
+          "Deaths": 1,
+          "Recovered": 4
+        }
+      ]
+    }
+  ]
+
+}
