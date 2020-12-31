@@ -15,4 +15,4 @@ Made by Calin Vasile Andrei, student of Politecnico di Milano / Elis College
 
 ## Video Preview
 
-[![Watch the video](https://github.com/calinvasileandrei/FullStack-CovidApp/blob/main/Assets/app1_2.jpg)](https://github.com/calinvasileandrei/FullStack-CovidApp/blob/main/Assets/appexample.mp4)
+[![Watch the video](https://github.com/calinvasileandrei/FullStack-CovidApp/blob/main/Assets/preview.jpg)](https://youtu.be/2OxZVkA_pLg)
