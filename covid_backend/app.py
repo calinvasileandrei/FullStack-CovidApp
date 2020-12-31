@@ -139,10 +139,11 @@ def listConfirmed():
     dataList = []
     for index, row in df.iterrows():
         try:
-            if(pd.isnull(row['Province/State'])):
-                dataList.append({"Province/State": row["Country/Region"], "Country/Region": row["Country/Region"], "Lat": row["Lat"],"Long": row["Long"], "Confirmed": row[len(df.columns) - 1] if not pd.isnull(row[len(df.columns) - 1]) else row[len(df.columns) - 2]  })
-            else:
-                dataList.append({"Province/State": row['Province/State'], "Country/Region": row["Country/Region"], "Lat": row["Lat"],"Long": row["Long"], "Confirmed": row[len(df.columns) - 1] if not pd.isnull(row[len(df.columns) - 1]) else row[len(df.columns) - 2]  })
+            if(not math.isnan(row["Lat"]) and not math.isnan(row["Long"])):
+                if(pd.isnull(row['Province/State'])):
+                    dataList.append({"Province/State": row["Country/Region"], "Country/Region": row["Country/Region"], "Lat": row["Lat"],"Long": row["Long"], "Confirmed": row[len(df.columns) - 1] if not pd.isnull(row[len(df.columns) - 1]) else row[len(df.columns) - 2]  })
+                else:
+                    dataList.append({"Province/State": row['Province/State'], "Country/Region": row["Country/Region"], "Lat": row["Lat"],"Long": row["Long"], "Confirmed": row[len(df.columns) - 1] if not pd.isnull(row[len(df.columns) - 1]) else row[len(df.columns) - 2]  })
 
 
         except:
