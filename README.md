@@ -5,3 +5,14 @@ I get all the data from csv provided from varius country and convert to json in 
 Flutter has a map view and a list/overall view where you can see al the data.
 
 Made by Calin Vasile Andrei, student of Politecnico di Milano / Elis College
+
+## App Preview:
+
+![alt text](https://github.com/calinvasileandrei/FullStack-CovidApp/blob/main/Assets/app1_2.jpg)
+
+![alt text](https://github.com/calinvasileandrei/FullStack-CovidApp/blob/main/Assets/app3_4.jpg)
+
+
+## Video Preview
+
+[![Watch the video](https://github.com/calinvasileandrei/FullStack-CovidApp/blob/main/Assets/app1_2.jpg)](https://github.com/calinvasileandrei/FullStack-CovidApp/blob/main/Assets/appexample.mp4)
